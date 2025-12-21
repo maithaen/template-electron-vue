@@ -14,6 +14,6 @@ export default defineConfig({
         '@': resolve('src/renderer/src')
       }
     },
-    plugins: [vue(), tailwindcss(), vueDevTools()]
+    plugins: [vue(), tailwindcss(), vueDevTools({ launchEditor: 'antigravity' })]
   }
 })
